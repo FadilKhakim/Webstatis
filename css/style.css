@@ -1,0 +1,32 @@
+.dark-blue {
+    background: linear-gradient(48deg, #202020, #0d2641);
+    background-size: 400% 400%;
+
+    -webkit-animation: DarkBlue 11s ease infinite;
+    -moz-animation: DarkBlue 11s ease infinite;
+    animation: DarkBlue 11s ease infinite;
+}
+
+@-webkit-keyframes DarkBlue {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes DarkBlue {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes DarkBlue {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+.border-white {
+    border: 1px solid white;
+}
+
+.link-blue {
+    text-decoration: none;
+    color: white;
+}
